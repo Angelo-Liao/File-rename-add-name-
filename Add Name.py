@@ -1,7 +1,7 @@
 import os
-from tqdm import tqdm
+from tqdm import tqdm  #需要先安裝個tqdm模組
 
-folder_path = r"#請輸入資料夾路徑"  #資料夾路徑
+folder_path = r"#請輸入資料夾路徑"  #這裡更改資料夾路徑
 
 file_list = os.listdir(folder_path)  #列出資料夾中的所有檔案
 
